@@ -3,11 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Temporary scratch and debug dumps
-temp_scratch/
-*.html
-*.png
-*.log
+# Ignore large binary/html dumps in temp_scratch
+temp_scratch/*.html
+temp_scratch/*.html_or_pdf
+temp_scratch/*.png
+temp_scratch/*.pdf
+temp_scratch/*.log
+temp_scratch/运行命令.txt
 
 # Environments
 .venv/
