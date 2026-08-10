@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary scratch and debug dumps
+temp_scratch/
+*.html
+*.png
+*.log
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# Downloaded PDF data (large binary files)
+pdf_downloads/
